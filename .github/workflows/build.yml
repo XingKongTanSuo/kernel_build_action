@@ -13,12 +13,12 @@ jobs:
 
     steps:
       - name: Build Kernel
-        uses: dabao1955/kernel_build_action@main
+        uses: XingKongTanSuo/kernel_build_action@main
         with:
-          kernel-url: https://github.com/AcmeUI-Devices/android_kernel_xiaomi_cas
-          kernel-dir: msm-4.19
-          kernel-branch: taffy
-          config: cas_defconfig
+          kernel-url: https://github.com/LINGJP/android_kernel_bbkedu_H7000
+          kernel-dir: msm-4.4
+          kernel-branch: mkp
+          config: sdm660-perf_defconfig
           arch: arm64
           aosp-gcc: true
           aosp-clang: true
