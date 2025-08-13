@@ -15,16 +15,16 @@ jobs:
       - name: Build Kernel
         uses: XingKongTanSuo/kernel_build_action@main
         with:
-          kernel-url: https://github.com/LINGJP/android_kernel_bbkedu_H7000
-          kernel-dir: msm-4.4
-          kernel-branch: mkp
-          config: sdm660-perf_defconfig
+          kernel-url: https://github.com/XingKongTanSuo/android_kernel_oppo_mt6833
+          kernel-dir: a57
+          kernel-branch: oppo/mt6833_u_14.0.0_a97_a57_5g
+          config: k6833v1_64_k419_defconfig
           arch: arm64
           aosp-gcc: true
           aosp-clang: true
-          ksu: false
+          ksu: true
           ksu-version: main
-          android-version: 9.0
-          aosp-clang-version: r365631
+          android-version: 14
+          aosp-clang-version: r383902
           disable-lto: true
           anykernel3: true
