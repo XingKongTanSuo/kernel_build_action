@@ -18,7 +18,7 @@ jobs:
           kernel-url: https://github.com/XingKongTanSuo/android_kernel_vivo_mt6855-opensource.vivo.com
           kernel-dir: sukiSU-Ultra
           kernel-branch: sukiSU-Ultra
-          config: Kconfig
+          config: defconfig
           arch: arm64
           aosp-gcc: true
           aosp-clang: true
