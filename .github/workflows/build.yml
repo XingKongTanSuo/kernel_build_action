@@ -15,14 +15,14 @@ jobs:
       - name: Build Kernel
         uses: XingKongTanSuo/kernel_build_action@main
         with:
-          kernel-url: https://github.com/XingKongTanSuo/android_kernel_oppo_mt6833
-          kernel-dir: a57
-          kernel-branch: oppo/mt6833_u_14.0.0_a97_a57_5g
-          config: k6833v1_64_k419_defconfig
+          kernel-url: https://github.com/XingKongTanSuo/android_kernel_vivo_mt6855-opensource.vivo.com
+          kernel-dir: sukiSU-Ultra
+          kernel-branch: sukiSU-Ultra
+          config: Kconfig
           arch: arm64
           aosp-gcc: true
           aosp-clang: true
-          ksu: true
+          ksu: false
           ksu-version: main
           android-version: 12
           aosp-clang-version: r383902
